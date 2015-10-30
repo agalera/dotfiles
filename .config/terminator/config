@@ -1,0 +1,25 @@
+[global_config]
+  window_state = fullscreen
+  hide_on_lose_focus = True
+  enabled_plugins = APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
+  always_on_top = True
+  borderless = True
+  geometry_hinting = False
+  inactive_color_offset = 1.0
+[keybindings]
+  hide_window = F12
+[profiles]
+  [[default]]
+    scrollback_lines = 5000
+    scrollback_infinite = True
+    show_titlebar = False
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
